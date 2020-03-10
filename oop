@@ -1,0 +1,19 @@
+Object oriented programming (OOP)
+    - Real world semantics to be visualized 'as is' in the software system
+
+1. Real world actors ---- Data in the RAM
+    - Data in the RAM : Objects
+    - str, float, int, bool,... : All have been objects
+    - Student, Professor, Library, Book, Author,.... : As objects in the RAM
+    - class : A class gives a data type to an object
+    - We can create 1 to n objects from a class
+        - str, float, int, bool,.. : All built in classes in python
+
+2. Real world actor characteristics --- Attributes of the object
+    - Create an attribute in an object
+        var.attribute_name = value
+    - Get an attribute value from an object
+        var.attribute_name
+
+3. Real world actor actions --- Methods called on the object
+    - var.methodCall()
