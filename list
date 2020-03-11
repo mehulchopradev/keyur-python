@@ -1,0 +1,7 @@
+- Ordered collection of elements
+- It maintains its size dynamically (based on elements being added/ removed)
+- Can have duplicate elements
+- Elements can be of same or even different types
+- Mainly use list for elements of the same type (homogenous)
+- Do not use list for elements of different type (heterogenous)
+- Mutable

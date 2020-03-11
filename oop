@@ -17,3 +17,7 @@ Object oriented programming (OOP)
 
 3. Real world actor actions --- Methods called on the object
     - var.methodCall()
+
+
+Immutable object : An object whose attributes cannot be modified after the object
+has been created
