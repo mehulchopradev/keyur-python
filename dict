@@ -1,0 +1,11 @@
+- This data structure apart from maintaining the regular values,
+also maintains a separate `index` that helps to directly jump to those values
+- Item : (key, value) key will be used in the `index` building
+    - key must be unique. Also must be an immutable python object
+    - value can be any python object
+- Mutable object
+
+Name: mehul
+Roll: 10
+Name: jill
+Roll: 5

@@ -1,0 +1,6 @@
+- Ordered collection of elements
+- Can have duplicate elements
+- Elements can be of same or even different types
+- Mainly use tuple for elements of different type (heterogenous)
+- Do not use tuple for elements of same type (homogenous)
+- Immutable

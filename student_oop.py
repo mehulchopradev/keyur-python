@@ -60,3 +60,13 @@ s3.marks = 34
 s3.gen = 'f' '''
 
 print(s3.get_details())
+
+''' t = s1.get_name_roll()
+name = t[0]
+roll = t[1] '''
+
+name, roll = s1.get_name_roll() # tuple unpacking (even works for list)
+print(name)
+print(roll)
+# Internally
+# Student.get_name_roll(s1)

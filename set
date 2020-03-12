@@ -1,0 +1,4 @@
+- Truly represents a mathematical set
+- Does not allow duplicate elements
+- Does not have order
+- Mutable
