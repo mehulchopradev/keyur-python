@@ -66,7 +66,8 @@ from math import factorial
     # 2. Built in modules list of python
 
 while True:
-    print('1. Fibonacci series\n2. Odd series\n3. Even or Odd\n4. Factorial\n5. Exit')
+    # print('1. Fibonacci series\n2. Odd series\n3. Even or Odd\n4. Factorial\n5. Exit')
+    print('1. Fibonacci series', '2. Odd series', '3. Even or Odd', '4. Factorial', '5. Exit', sep='\n')
     choice = int(input('Please enter ur choice: '))
 
     if choice == 5:
