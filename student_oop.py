@@ -2,6 +2,8 @@
 
 from com.xyz.lib.student import Student
 
+print(Student.count) # 0 (Accessing the class attribute)
+
 # s1 = Student() # 3004 (RAM)
 '''
 Internally
@@ -37,6 +39,8 @@ print(s1.roll)
 print(s2.name)
 print(s2.roll) '''
 
+print(Student.count) # 2
+
 print(s1.get_details())
 # Python Internally
 # print(Student.get_details(s1))
@@ -70,3 +74,9 @@ print(name)
 print(roll)
 # Internally
 # Student.get_name_roll(s1)
+
+print(Student.count) # 3
+
+# calling a class method
+s4 = Student.create_student(name='keyur', gender='m', roll=90, marks=98)
+print(s4.get_details())

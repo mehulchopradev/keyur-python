@@ -1,5 +1,15 @@
 # Developer X
+
+'''
+For every `class` in python, a memory (object) is reserved in the RAM.
+i.e. 1 object per class
+str, float, int,..., Student : for each one of them there is an object in the RAM
+'''
 class Student:
+
+    # class attribute
+    # lives in the class object and shared by all the Student objects of the class
+    count = 0
 
     def __init__(self, name, roll, marks, gender):
         # Constructor
@@ -10,6 +20,15 @@ class Student:
         self.marks = marks
         self.gender = gender
 
+        # class attributes are accessed using the classname
+        Student.count += 1
+
+    # class method
+    # Call using ClassName.classmethodcall()
+    def create_student(name, roll, marks, gender):
+        return Student(name=name, roll=roll, marks=marks, gender=gender)
+
+    # object methods
     def get_details(self):
         # self - current object for which the "outside user" called this method
         ''' return 'Name : ' + self.name + '\nGender: ' + self.gender\
